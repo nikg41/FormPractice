@@ -32,7 +32,7 @@ const SimpleInput = (props) => {
   const onSubmitHandler = event => {
     event.preventDefault();
 
-    if (!nameIsValid) {
+    if (!formValid) {
       return;
     }
     console.log(name);
